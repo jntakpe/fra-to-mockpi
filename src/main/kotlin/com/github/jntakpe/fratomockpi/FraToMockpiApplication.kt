@@ -11,7 +11,7 @@ class FraToMockpiApplication {
     @Bean
     fun job(reader: Reader): CommandLineRunner {
         return CommandLineRunner {
-            reader.read().subscribe()
+            reader.read().blockLast()
         }
     }
 
