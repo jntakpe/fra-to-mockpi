@@ -38,10 +38,9 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-batch')
+    compile('org.springframework.boot:spring-boot-starter-webflux')
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb-reactive')
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
 	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
-	compile('com.h2database:h2:1.4.195')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

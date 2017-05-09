@@ -1,0 +1,3 @@
+batch:
+  fraUrl: http://fra.cyril-barillet.com:8080
+  chunkSize: 10
