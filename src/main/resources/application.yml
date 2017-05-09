@@ -1,3 +1,3 @@
-batch:
-  fraUrl: http://fra.cyril-barillet.com:8080
-  chunkSize: 10
+fraUrl: http://fra.cyril-barillet.com:8080
+fraPrefix: /rest
+mockpiPrefix: /mockpi
