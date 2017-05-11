@@ -1,3 +1,9 @@
 fraUrl: http://fra.cyril-barillet.com:8080
 fraPrefix: /rest
 mockpiPrefix: /mockpi
+spring:
+  data:
+    mongodb:
+      database: mockpi
+      host: dep01-int.documents.azure.com
+      port: 10250
